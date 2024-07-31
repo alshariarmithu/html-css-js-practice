@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --main-color:#deab5f;
+    --primary-color:#312e2e;
+}
+
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #100e0f;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    font-family: sans-serif;
+    padding-top: 15px;
+
+}
+li{
+    display: inline;
+    list-style: none;
+}
+li a{
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+li a:hover{
+    border-bottom: 2px solid var(--main-color);
+}
+
+.header{
+    background: url(images/header-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Playfair Display",serif;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+}
+
+.primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background:transparent;
+    background: var(--main-color);
+    transform: translateY(60px);
+}
+#our-story{
+    height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
